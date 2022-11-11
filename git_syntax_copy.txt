@@ -1,0 +1,46 @@
+pwd: current folder/path
+cd /Users/mmh/Desktop/Edinburgh/Julia_workshop : change the direction(disk)? 
+
+Now we are at the folder: Julia_workshop
+git --version
+git init
+
+git status
+git add
+
+
+
+
+git branch -M main
+git remote add origin https://github.com/mmmuhan/Julia_workshop.git
+mmh@mmhdeMacBook-Pro Julia_workshop % git push -u origin main
+
+
+
+
+
+
+
+git config --global user.email "mamuhan.me@gmail.com"
+git config --global user.name "mmmuhan"
+cd /Users/mmh/Desktop/Edinburgh/Git/MyFolder
+
+git init
+defaults write com.apple.finder AppleShow AllFiles YES
+
+git status
+
+touch test1.txt 
+git status
+
+git add test1.txt
+git status 
+
+
+git commit -m "added test1.txt"
+touch index.html
+git status
+
+git add . 
+git status
+git commit -m "added index.html | modified test1.txt"
